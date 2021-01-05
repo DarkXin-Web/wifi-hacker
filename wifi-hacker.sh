@@ -6,10 +6,10 @@
 ############################################################################
 
 
-# WiFi Hacker v2.0
-# esc0rtd3w 2019
+# WiFi Hacker v1.9
+# DarkXin-Web 2020
 
-# https://github.com/esc0rtd3w/wifi-hacker/
+# https://github.com/DarkXin-Web/wifi-hacker/
 
 # Uses parts of the aircrack-ng suite, reaver, wifite, and many other tools
 
@@ -26,8 +26,8 @@
 #   VERSION HISTORY BEGIN   ################################################
 ############################################################################
 
-# v2.0
-# - Added support for new Gnome terminal options. Tested in Kali 2018.4
+# v1.9
+# - Added support for new Gnome terminal options. Tested in Kali 2020.110
 
 # v1.9
 # - Added support for Wash. Currently used for dumping scan info out to text.
@@ -634,7 +634,7 @@ setWindowTitle(){
 
 	currentTask="setWindowTitle"
 
-	title='echo -ne "\033]0;WiFi Hacker v2.0\007"'
+	title='echo -ne "\033]0;WiFi Hacker v1.9\007"'
 
 	$title
 
@@ -742,7 +742,7 @@ setVariablesRequired(){
 	versionRemoteClean="00"
 	versionRemoteTemp="0.0"
 	newUpdateAvailable="0"
-	updateMaster=https://raw.githubusercontent.com/esc0rtd3w/wifi-hacker/master/wifi-hacker.sh
+	updateMaster=https://raw.githubusercontent.com/DarkXin-Web/wifi-hacker/master/wifi-hacker.sh
 	updateTemp="/tmp/update-check.tmp"
 	updateChecked="0"
 	skipUpdate="0"
@@ -1360,13 +1360,13 @@ bannerExitUpdate(){
 	$blue
 	echo "Thank You For Playing Fair ;)"
 	echo ""
-	echo "esc0rtd3w 2019"
+	echo "DarkXin-Web 2020"
 	echo ""
 	echo ""
 	$cyan
 	echo "View My Other Projects On GitHub:"
 	echo ""
-	echo "https://github.com/esc0rtd3w"
+	echo "https://github.com/DarkXin-Web"
 	echo ""
 	echo ""
 
